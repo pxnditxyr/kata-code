@@ -5,7 +5,7 @@ import { TitleField } from '../fields/TitleField';
 export const Header = () => {
 
     return (
-        <header>
+        <header className="flex justify-between gap-x-12">
             <div>
                 <h1> K'ata Code </h1>
             </div>

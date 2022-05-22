@@ -23,7 +23,7 @@ export const HomeScreen = () => {
         <>
             <textarea
                 id="html"
-                className="field"
+                className="bg-neutral-800 text-white p-2 resize-none w-full h-full shadow-lg shadow-white focus:outline-none"
                 name="html"
                 placeholder="HTML"
                 value={ html }
@@ -31,7 +31,7 @@ export const HomeScreen = () => {
             ></textarea>
             <textarea
                 id="css"
-                className="field"
+                className="bg-neutral-800 text-white p-2 resize-none w-full h-full shadow-lg shadow-white focus:outline-none"
                 name="css"
                 placeholder="CSS"
                 value={ css }
@@ -39,8 +39,8 @@ export const HomeScreen = () => {
             ></textarea>
             <textarea
                 id="js"
-                className="field"
                 name="js"
+                className="bg-neutral-800 text-white p-2 resize-none w-full h-full shadow-lg shadow-white focus:outline-none"
                 placeholder="JavaScript"
                 value={ js }
                 onChange={ handleChange }

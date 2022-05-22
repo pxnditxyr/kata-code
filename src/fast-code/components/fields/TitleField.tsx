@@ -19,17 +19,17 @@ export const TitleField = () => {
             { 
                 ( isEditable )
                 ?   
-                    <>
+                    <div className="flex gap-x-3">
                         <input
                             id="title"
-                            className="title"
+                            className="bg-gray-200 px-2 py-1 rounded-lg focus:outline-none"
                             name="title"
                             placeholder="Title"
                             value={ title }
                             onChange={ handleChange }
                         />
                         <button onClick={ () => setEditable( false ) }> ✔️ </button>
-                    </>
+                    </div>
                 : <span className="title" onDoubleClick={ () => setEditable( true ) }> { title } </span>
             }
         </div>
