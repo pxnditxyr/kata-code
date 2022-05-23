@@ -6,7 +6,7 @@ export const Result = () => {
 
     return (
         <div className="bg-white w-full h-full">
-            <iframe srcDoc={ code }></iframe>
+            <iframe srcDoc={ code } className="w-full h-full"></iframe>
         </div>
     );
 };

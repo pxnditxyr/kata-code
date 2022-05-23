@@ -1,12 +1,12 @@
 import { CodeProvider } from './context';
-import { Header } from './components';
 import { HomeScreen } from './screens';
+import { Navbar } from './components/navbar/Navbar';
 
 export const FastCode = () => {
     return (
         <CodeProvider>
-            <Header />
-            <main>
+            <main className="h-screen">
+                <Navbar />
                 <HomeScreen />
             </main>
         </CodeProvider>
