@@ -1,14 +1,14 @@
 import { CodeProvider } from './context';
-import { HomeScreen } from './screens';
-import { Navbar } from './components/navbar/Navbar';
+import { AppRouter } from './routers/AppRouter';
 
 export const FastCode = () => {
     return (
-        <CodeProvider>
-            <main className="h-screen">
-                <Navbar />
-                <HomeScreen />
-            </main>
-        </CodeProvider>
+        <>
+            <CodeProvider>
+                <main className="h-screen">
+                    <AppRouter />
+                </main>
+            </CodeProvider>
+        </>
     );
 };

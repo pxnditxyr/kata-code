@@ -1,5 +1,7 @@
-import { Split } from '@geoffcox/react-splitter';
 import { useEffect } from 'react';
+
+import { Split } from '@geoffcox/react-splitter';
+
 import { Result } from '../components';
 import { useCode, useForm } from '../hooks';
 
